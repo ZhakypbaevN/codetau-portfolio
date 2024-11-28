@@ -1,37 +1,30 @@
 <template>
-  <svg :viewBox="'0 0 ' + viewboxWidth + ' ' + viewboxHeight" xmlns:xlink="http://www.w3.org/1999/xlink" :style="'fill:' + fill + ';display:block;'">
-    <use :xlink:href="'assets/icons/icons.svg#' + name" x="0" y="0" @load="loaded" />
-    <div class="skeleton" v-if="!isLoad"></div>
-  </svg>
+  <div :class="classMainName" v-html="iconHtml"></div>
 </template>
 
 <script setup lang="ts">
-  import { ref } from 'vue';
+  import { computed } from 'vue';
+  import iconsJSON from "@/helpers/icons.json";
 
-  interface IProps {
-    name?: string,
-    width?: number,
-    height?: number,
-    viewboxWidth?: number | string,
-    viewboxHeight?: number | string,
-    fill?: string
+  interface Props {
+    name: string;
+    fill?: string;
+    className?: string;
+    classMainName?: string;
   }
 
-  withDefaults(defineProps<IProps>(), {
-    name: '',
-    viewboxWidth: 24,
-    viewboxHeight: 24
-  })
+  const props = defineProps<Props>();
 
-  const isLoad = ref(false)
-  const loaded = () => {
-    isLoad.value = true
-  }
+  const iconHtml = computed(() => {
+    const { name, fill, className } = props;
+
+    function insertStringAtIndex(originalString: string) {
+      let stringToInsert = ' ';
+      if (className) stringToInsert += `class="${className}" `;
+      if (fill) stringToInsert += `fill="${fill}" `;
+      return originalString.slice(0, 4) + stringToInsert + originalString.slice(4);
+    }
+
+    return insertStringAtIndex(iconsJSON[name]);
+  });
 </script>
-
-<style scoped>
-.skeleton {
-  width: 100%;
-  height: 100%;
-}
-</style>

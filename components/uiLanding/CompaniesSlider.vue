@@ -5,15 +5,28 @@
         <h4 class="companies-title">{{ $t('companiesSliderTitle') }}</h4>
 
         <div class="companies-slider">
-          <div class="companies-slider-inner">
-            <div
-              v-for="(companyLogo, idx) in companyLogoList"
-              :key="idx"
-              class="companies-slider-item"
+          <Swiper
+            :slidesPerView="'auto'"
+            class="companies-slider-inner"
+            :autoplay="{
+              delay: 0,
+              disableOnInteraction: false
+            }"
+            :speed="10000"
+            :loop="true"
+            :spaceBetween="0"
+            :modules="[Autoplay]"
+          >
+            <SwiperSlide
+              v-for="(companyLogo) in companyLogoList"
+              :key="companyLogo"
+              class="companies-slider-slideItem"
             >
-              <img :src="companyLogo" alt="">
-            </div>
-          </div>
+              <div class="companies-slider-item">
+                <img :src="companyLogo">
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>
@@ -21,6 +34,12 @@
 </template>
 
 <script lang="ts" setup>
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import { Autoplay } from 'swiper/modules';
+
+  import 'swiper/css';
+  import 'swiper/css/autoplay';
+
   const companyLogoList = [
     '/assets/icons/companies/company-1.svg',
     '/assets/icons/companies/company-2.svg',
@@ -51,13 +70,13 @@
 
     display: block;
     
-    height: 70px;
+    height: 100%;
     width: 20%;
     
     position: absolute;
     left: 0;
     top: 50%;
-    z-index: 1;
+    z-index: 2;
     transform: translateY(-50%);
 
     background: -webkit-linear-gradient(left, white, white 80%, transparent 100%); /* Для старых версий Chrome, Safari, iOS */
@@ -67,6 +86,8 @@
   }
 
   &-inner {
+    width: 100%;
+  
     display: grid;
     align-items: center;
     grid-template-columns: 19.5rem 1fr;
@@ -84,16 +105,15 @@
   }
 
   &-slider {
-    &-inner {
-      display: flex;
-      align-items: center;
-      grid-gap: 10rem;
+    max-width: 200rem;
 
-      animation: infinite-scroll 140s linear infinite;
+    &-slideItem {
+      width: 29rem;
+      padding: 0 5rem;
     }
 
     &-item {
-      width: 14rem;
+      width: 24rem;
       height: 7.5rem;
 
       display: flex;
@@ -102,7 +122,7 @@
 
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
-      opacity: .6;
+      opacity: .4;
 
       transition: all .6s linear;
 
@@ -113,14 +133,112 @@
       }
     }
   }
-}
 
-@keyframes infinite-scroll {
-  0% {
-    transform: translateX(0%);
+
+  // Adaptation
+  @media (max-width: 1200px) {
+    padding: 2.2rem 0;
+
+    &::before {
+      width: 30%;
+    }
+
+    &-inner {
+      grid-template-columns: 18rem 1fr;
+      grid-gap: 8rem;
+    }
+
+    &-title {
+      font-size: 2.2rem;
+    }
+
+    &-slider-item {
+      width: 22rem;
+      height: 6.875rem;
+    }
   }
-  100% {
-    transform: translateX(-80%);
+
+  @media (max-width: 992px) {
+    padding: 2rem 0;
+
+    &-inner {
+      grid-template-columns: 16rem 1fr;
+      grid-gap: 6rem;
+    }
+
+    &-title {
+      font-size: 2rem;
+    }
+
+    &-slider {
+      &-slideItem {
+        width: 24rem;
+        padding: 0 4rem;
+      }
+
+      &-item {
+        width: 20rem;
+        height: 6.25rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1.8rem 0;
+
+    &::before {
+      width: 32%;
+    }
+
+    &-inner {
+      grid-template-columns: 13rem 1fr;
+      grid-gap: 6rem;
+    }
+
+    &-title {
+      font-size: 1.6rem;
+    }
+
+    &-slider {
+      &-slideItem {
+        width: 21.8rem;
+        padding: 0 3.8rem;
+      }
+
+      &-item {
+        width: 18rem;
+        height: 5.625rem;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    &::before {
+      display: none;
+    }
+
+    &-inner {
+      display: block;
+    }
+
+    &-title {
+      display: none;
+    }
+
+    &-slider {
+      &-slideItem {
+        width: 19.6rem;
+        padding: 0 3.6rem;
+      }
+
+      &-item {
+        width: 16rem;
+        height: 5rem;
+      }
+    }
+  }
+
+  @media (max-width: 380px) {
   }
 }
 </style>

@@ -1,18 +1,39 @@
 /* -----VARIABLES----- */
 :root {
   --primary-color: #0F1110;
+  --primary-color-op5: #0F11100D;
   --primary-color-op10: #0F11101A;
+  --primary-color-op15: #0F111026;
   --primary-color-op20: #0F111033;
+  --primary-color-op40: #0F111066;
+  --primary-color-op60: #0F111099;
+  --primary-color-op80: #0F1110CC;
 
   --accent-color: #4481FF;
+  --accent-color-op5: #4481FF0D;
+  --accent-color-op10: #4481FF1A;
+  --accent-color-op20: #4481FF33;
+  --accent-color-op40: #4481FF66;
+  --accent-color-op60: #4481FF99;
+  --accent-color-op70: #4481FFB3;
+  --accent-color-op80: #4481FFCC;
 
-  --white-color: #FFFFFF;
+  --white-color: #fff;
+  --white-color-op5: #FFFFFF0D;
   --white-color-op10: #FFFFFF1A;
+  --white-color-op15: #FFFFFF26;
+  --white-color-op60: #FFFFFF99;
+  --white-color-op70: #FFFFFFB3;
   --white-color-op80: #FFFFFFCC;
+  --white-color-op90: #FFFFFFE6;
 
+  --blue-color: #4481FF;
   --blue-light-color: #51A9FF;
-  
+  --blue-light-color-op70: #51A9FFB3;
+  --blue-light-v2-color: #3AA0F3;
+
   --gray-color: #54585E;
+  --gray-color-op5: #54585E0D;
   --gray-color-op10: #54585E1A;
   --gray-color-op20: #54585E33;
   --gray-color-op30: #54585E4D;
@@ -25,7 +46,15 @@
 
   --gray-dark-color: #1C1C1C;
 
+  --perple-color: #8b6aff;
   --perple-light-color: #BEACFF;
+
+  --cancel-color: #16193180;
+  --error-color: #ff5656;
+  --red-color: #ff5656;
+
+  --bg-color: #2C2C2C;
+  --bg-v2-color: #1f1f1f;
 
   --primary-font: 'Unbounded';
   --secondary-font: 'Roboto';

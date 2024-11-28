@@ -1,6 +1,6 @@
 <template>
   <main>
-    <HeaderLanding />
+    <HeaderLanding type="fly" theme="light" />
 
     <Intro />
 
@@ -19,7 +19,7 @@
 
       <ProjectsSlider />
 
-      <WhyChooseUs />
+      <WhyChooseUsSlider />
 
       <ACallToAction />
       
@@ -35,14 +35,14 @@
   import RunningLines from '@/components/uiLanding/RunningLines.vue';
   import ACallToAction from '@/components/uiLanding/ACallToAction.vue';
   import CompaniesSlider from '@/components/uiLanding/CompaniesSlider.vue';
-  import ProjectsSlider from '@/components/uiLanding/ProjectsSlider.vue';
+  import ProjectsSlider from '~/components/uiLanding/projects/ProjectsSlider.vue';
 
   import Intro from '@/components/uiLanding/home/Intro.vue';
   import Services from '@/components/uiLanding/home/Services.vue';
   import AboutUs from '@/components/uiLanding/home/AboutUs.vue';
-  import Workflow from '@/components/uiLanding/home/Workflow.vue';
-  import DevelopmentPlan from '@/components/uiLanding/home/DevelopmentPlan.vue';
-  import WhyChooseUs from '@/components/uiLanding/home/WhyChooseUs.vue';
+  import Workflow from '~/components/uiLanding/Workflow.vue';
+  import DevelopmentPlan from '~/components/uiLanding/DevelopmentPlan.vue';
+  import WhyChooseUsSlider from '~/components/uiLanding/home/WhyChooseUsSlider.vue';
 </script>
 
 <style lang="scss" scoped>

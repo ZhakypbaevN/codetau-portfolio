@@ -1,0 +1,663 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "name": "Respublica Partiyasy",
+      "preview": "/assets/img/projects/respublica/preview.jpg",
+      "year": "2023",
+      "introDescription": "Разработка цифровой платформы для Respublica Partiyasy с удобным интерфейсом, ориентированным на информирование и взаимодействие с общественностью.",
+
+      "client": "Respublica",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web",
+        "mobile"
+      ],
+      "role": [
+        "Полный цикл разработки",
+        "Анализ требований",
+        "UX/UI-дизайн",
+        "Разработка платформы",
+        "Настройка и поддержка платформы"
+      ],
+      "technologies": [
+        "Figma",
+        "Vue.js",
+        "TypeScript",
+        "Python",
+        "Laravel",
+        "Flutter"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/respublica/intro-photo-1.jpg",
+        "/assets/img/projects/respublica/intro-photo-2.jpg",
+        "/assets/img/projects/respublica/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Оснавная задача проекта заключалась в создании функционального сайта, отражающего современные принципы Respublica Partiyasy. Работа включала дизайн UX/UI, разработку с использованием современных технологий, а также настройку платформы для публикации новостей, представления инициатив и взаимодействия с пользователями. Важный акцент сделан на простоте навигации, инклюзивности и поддержке мобильных устройств.",
+        "projectType": "Платформа для публикации контента и взаимодействия с ограниченным доступом для управления внутренними процессами",
+        "industry": [
+          "Новостная",
+          "Политика",
+          "Общественные организации",
+          "Здравоохранение"
+        ]
+      },
+
+      "goast": "Создать современный веб-сайт, который эффективно представляет партию, ее цели и инициативы, а также помогает налаживать коммуникацию с общественностью и поддерживать положительный имидж в цифровой среде.",
+      "aboutProject": {
+        "title": "Respublica Partiyasy",
+        "description": "Это казахстанская политическая партия, фокусирующаяся на поддержке малого и среднего бизнеса, инновационных подходах и вовлечении гражданского общества. Клиент пожелал создать доступную, стильную и технологически продвинутую платформу для демонстрации своей деятельности и взаимодействия с избирателями. Пожелания включали строгое соответствие бренду, информативность, а также обеспечение функциональности для обновления контента.",
+
+        "photo_1": "/assets/img/projects/respublica/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/respublica/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/respublica/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/respublica/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/respublica/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/respublica/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/respublica/preview-litle-1.jpg",
+          "/assets/img/projects/respublica/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "Doctoreon/OnTimed - Немецкий проект",
+      "preview": "/assets/img/projects/ontimed/preview.jpg",
+      "year": "2022",
+      "introDescription": "Разработка лендинга Doctoreon и системы OnTimed для автоматизации размещения заявок на почасовую работу, с акцентом на медицинскую сферу.",
+
+      "client": "Doctoreon GmbH",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web",
+        "mobile"
+      ],
+      "role": [
+        "Создание лендинга Doctoreon",
+        "Разработка системы на веб и мобилке"
+      ],
+      "technologies": [
+        "Figma",
+        "Bitrix",
+        "jQuery",
+        "PHP",
+        "Laravel",
+        "Flutter"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/ontimed/intro-photo-1.jpg",
+        "/assets/img/projects/ontimed/intro-photo-2.jpg",
+        "/assets/img/projects/ontimed/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Лендинг Doctoreon представляет компанию, ориентированную на цифровизацию почасовой занятости в медицине. Система OnTimed — это облачная платформа для размещения и управления заявками на почасовую работу врачей и медицинского персонала. Проект включает разработку интуитивно понятного интерфейса для обеих частей, а также внедрение функциональности для поиска специалистов, подачи заявок и мониторинга их статуса. Особое внимание уделено удобству использования для медицинских организаций и исполнителей.",
+        "projectType": "Информационный лендинг и корпоративная система управления почасовой занятостью в медицинской сфере.",
+        "industry": [
+          "Медицинские услуги",
+          "Цифровизация рабочих процессов"
+        ]
+      },
+
+      "goast": "Создать цифровую экосистему, которая объединяет медицинские учреждения и специалистов, предлагая простой способ управления заявками на работу, чтобы сократить временные затраты и повысить эффективность процессов.",
+      "aboutProject": {
+        "title": "Doctoreon GmbH",
+        "description": "Doctoreon GmbH — немецкая компания, которая стремится упростить и оптимизировать процесс временной занятости в медицине. Основная цель клиента заключалась в создании удобного и функционального решения, которое поможет медицинским учреждениям находить специалистов на почасовой основе через автоматизированную платформу. Клиент также акцентировал внимание на профессиональном дизайне для лендинга и простоте взаимодействия с системой.",
+
+        "photo_1": "/assets/img/projects/ontimed/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/ontimed/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/ontimed/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/ontimed/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/ontimed/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/ontimed/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/ontimed/preview-litle-1.jpg",
+          "/assets/img/projects/ontimed/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 2,
+      "name": "Xcmg XuGong KZ - Система бронирования",
+      "preview": "/assets/img/projects/xcmg/preview.jpg",
+      "year": "2024",
+      "introDescription": "Разработка веб-системы и мобильного приложения для XCMG XuGong KZ, предназначенных для управления заявками на бронирование строительной техники.",
+
+      "client": "XCMG XuGong KZ",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web",
+        "mobile"
+      ],
+      "role": [
+        "Проектирование архитектуры системы",
+        "Разработка веб-платформы и мобилки",
+        "Интеграция роли администратора",
+        "Внедрение функционала для бронирования техники"
+      ],
+      "technologies": [
+        "Figma",
+        "React.js",
+        "TypeScript",
+        "PHP",
+        "Laravel",
+        "Flutter"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/xcmg/intro-photo-1.jpg",
+        "/assets/img/projects/xcmg/intro-photo-2.jpg",
+        "/assets/img/projects/xcmg/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "В рамках проекта была создана интегрированная система для дилеров и менеджеров XCMG. Функционал включает создание заявок на бронирование техники для строительных и других нужд. Также реализованы административные панели для управления данными, пользовательскими ролями и аналитикой. Веб-платформа и мобильное приложение обеспечивают доступность и удобство использования на разных устройствах, что упрощает процесс бронирования и делает его прозрачным.",
+        "projectType": "Корпоративная система бронирования техники с многоуровневым доступом для пользователей (дилеры, менеджеры, администраторы).",
+        "industry": [
+          "Строительная техника",
+          "Инженерные решения"
+        ]
+      },
+
+      "goast": "Создать функциональную и удобную систему, обеспечивающую оперативность обработки заявок, повышение прозрачности процессов бронирования и улучшение взаимодействия между дилерами, менеджерами и администратором компании.",
+      "aboutProject": {
+        "title": "XCMG (Xuzhou Construction Machinery Group)",
+        "description": "Мировой лидер в области производства строительной техники, представленный более чем в 180 странах. Клиент поставил задачу разработать систему, которая автоматизирует процесс бронирования техники для дилеров и менеджеров, с интеграцией административного контроля и поддержкой масштабируемости для будущих нужд бизнеса.",
+
+        "photo_1": "/assets/img/projects/xcmg/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/xcmg/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/xcmg/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/xcmg/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/xcmg/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/xcmg/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/xcmg/preview-litle-1.jpg",
+          "/assets/img/projects/xcmg/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 10,
+      "name": "A Class Online",
+      "preview": "/assets/img/projects/aclass/preview.jpg",
+      "year": "2019",
+      "introDescription": "Разработка сайта для платформы A Class Online, предназначенной для размещения и продажи онлайн-курсов.",
+
+      "client": "CodeTau",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web"
+      ],
+      "role": [
+        "Разработка сайта платформы",
+        "Проектирование UX/UI-дизайна",
+        "Настройка системы обработки платежей и монетизации"
+      ],
+      "technologies": [
+        "Figma",
+        "Vue.js",
+        "TypeScript",
+        "Python",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/aclass/intro-photo-1.jpg",
+        "/assets/img/projects/aclass/intro-photo-2.jpg",
+        "/assets/img/projects/aclass/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Сайт предоставляет пользователям возможность публиковать образовательные курсы на различные темы, включая бесплатные и платные предложения. Для платных курсов реализована функция обработки платежей с системой комиссии для платформы. Интерфейс сайта ориентирован на удобство как для авторов курсов, так и для студентов, с интуитивным процессом регистрации, поиска и прохождения курсов. В дальнейшем планируется разработка мобильного приложения для расширения функционала.",
+        "projectType": "Платформа онлайн-курсов с гибким доступом для преподавателей и студентов.",
+        "industry": [
+          "Образовательные технологии (EdTech)"
+        ]
+      },
+
+      "goast": "Создать удобный и функциональный веб-сайт, который объединяет преподавателей и студентов, позволяя делиться знаниями и организовывать платное и бесплатное обучение с прозрачной системой взаимодействия и поддержки.",
+      "aboutProject": {
+        "title": "A Class Online",
+        "description": "A Class Online — образовательная платформа, направленная на развитие доступного онлайн-обучения. Клиент пожелал создать современный сайт с возможностью масштабирования под мобильные приложения, а также реализовать удобную монетизацию для создателей контента.",
+
+        "photo_1": "/assets/img/projects/aclass/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/aclass/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/aclass/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/aclass/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/aclass/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/aclass/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/aclass/preview-litle-1.jpg",
+          "/assets/img/projects/aclass/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+
+    {
+      "id": 6,
+      "name": "View Project - Система управления проектами",
+      "preview": "/assets/img/projects/view-project/preview.jpg",
+      "year": "2020",
+      "introDescription": "Создание платформы View Project для управления проектами, объединяющей авторов идей и инвесторов, с возможностью отслеживания прогресса внутри системы.",
+
+      "client": "Kazakh Tourism",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web"
+      ],
+      "role": [
+        "Разработка платформы управления проектами",
+        "Проектирование системы подачи заявок",
+        "Реализация интерфейсов для инвесторов",
+        "Реализация мониторинга проектов"
+      ],
+      "technologies": [
+        "Figma",
+        "React.js",
+        "Python",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/view-project/intro-photo-1.jpg",
+        "/assets/img/projects/view-project/intro-photo-2.jpg",
+        "/assets/img/projects/view-project/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Платформа позволяет пользователям подавать заявки на свои проекты, которые затем рассматриваются потенциальными инвесторами. При принятии заявки в системе начинается работа над проектом с функциями управления задачами, отслеживания прогресса и взаимодействия между участниками. Интерфейс упрощает процесс подачи заявок, анализа информации инвесторами и совместной работы над проектами. Система разработана как инструмент для повышения прозрачности и эффективности процесса реализации идей.",
+        "projectType": "Платформа для подачи и управления проектами с интеграцией инструментов для инвестирования и мониторинга.",
+        "industry": [
+          "Управление проектами",
+          "Инвестиционные технологии"
+        ]
+      },
+
+      "goast": "Разработать платформу, которая упростит процесс подачи заявок на проекты, привлечение инвестиций и управление их реализацией, обеспечивая удобство и доверие со стороны всех участников.",
+      "aboutProject": {
+        "title": "View Project Invest",
+        "description": "View Project — часть инициативы Qaztourism, направленной на поддержку инновационных проектов в сфере туризма и смежных отраслей. Клиент поставил задачу создать цифровую экосистему для объединения авторов идей и инвесторов, с акцентом на удобство взаимодействия и прозрачность всех процессов.",
+
+        "photo_1": "/assets/img/projects/view-project/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/view-project/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/view-project/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/view-project/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/view-project/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/view-project/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/view-project/preview-litle-1.jpg",
+          "/assets/img/projects/view-project/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 4,
+      "name": "Qamqor Connect - Дистанционный мониторинг",
+      "preview": "/assets/img/projects/qamqor/preview.jpg",
+      "year": "2023",
+      "introDescription": "Разработка приложения Qamqor Connect для дистанционного мониторинга здоровья пациентов и взаимодействия с медицинскими учреждениями.",
+
+      "client": "Vienna LLP",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "mobile"
+      ],
+      "role": [
+        "Разработка мобильного приложения",
+        "Разработка функций мониторинга здоровья",
+        "Создания разделов для ввода данных",
+        "Настройки аналитических калькуляторов",
+        "Интеграции интерфейса для врачей"
+      ],
+      "technologies": [
+        "Figma",
+        "Flutter",
+        "TypeScript",
+        "Python",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/qamqor/intro-photo-1.jpg",
+        "/assets/img/projects/qamqor/intro-photo-2.jpg",
+        "/assets/img/projects/qamqor/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Qamqor Connect — это мобильное приложение, которое позволяет пациентам самостоятельно отслеживать ключевые показатели здоровья, такие как пульс, давление, уровень сахара в крови и другие параметры. Данные вводятся пациентами вручную или с помощью подключаемых устройств и сохраняются в системе. Приложение анализирует результаты, определяет, находятся ли показатели в норме, и передает информацию врачам. Медицинские работники могут наблюдать за состоянием пациентов в реальном времени, просматривать историю показателей и принимать решения удаленно. Приложение также включает разделы для мониторинга веса, роста и других метрик.",
+        "projectType": "Мобильное приложение для дистанционного мониторинга здоровья и медицинской аналитики.",
+        "industry": [
+          "Цифровая медицина",
+          "Телемедицина"
+        ]
+      },
+
+      "goast": "Создать надежное и удобное приложение, которое обеспечивает безопасный сбор данных о состоянии здоровья, улучшает взаимодействие между пациентами и врачами, а также позволяет оперативно реагировать на отклонения в показателях здоровья.",
+      "aboutProject": {
+        "title": "Qamqor Connect",
+        "description": "Медицинский центр, который стремится использовать современные технологии для улучшения мониторинга здоровья пациентов. Клиент поставил задачу создать приложение, которое облегчает процесс сбора и анализа медицинских данных, а также предоставляет врачам удобный инструмент для удаленного наблюдения.",
+
+        "photo_1": "/assets/img/projects/qamqor/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/qamqor/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/qamqor/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/qamqor/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/qamqor/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/qamqor/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/qamqor/preview-litle-1.jpg",
+          "/assets/img/projects/qamqor/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 5,
+      "name": "SuperMom Academy",
+      "preview": "/assets/img/projects/supermom/preview.jpg",
+      "year": "2022",
+      "introDescription": "Создание приложения SuperMom Academy для беременных женщин и молодых мам, предоставляющего консультации врачей 24/7, образовательный контент и инструменты для здоровья.",
+
+      "client": "Vienna LLP",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "mobile"
+      ],
+      "role": [
+        "Полный цикл разработки приложения",
+        "Проектирование UX/UI",
+        "Онлайн-чат для консультаций",
+        "Образовательных разделы"
+      ],
+      "technologies": [
+        "Figma",
+        "Flutter",
+        "TypeScript",
+        "Python",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/supermom/intro-photo-1.jpg",
+        "/assets/img/projects/supermom/intro-photo-2.jpg",
+        "/assets/img/projects/supermom/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "SuperMom Academy — это мобильное приложение, которое помогает женщинам на протяжении беременности и первого года жизни ребенка. Пользователи могут получить онлайн-консультацию врачей 24/7, изучить образовательный контент в разделе \"Школа мам\", включающем темы беременности, родов и педиатрии. Приложение также предоставляет тесты для выявления возможных патологий, ленту с актуальными новостями, советы по уходу за ребенком и поддержке здоровья. Разработано для удобства и практического использования в любое время.",
+        "projectType": "Мобильное приложение для здоровья и обучения молодых мам.",
+        "industry": [
+          "Цифровая медицина",
+          "Родительское образование"
+        ]
+      },
+
+      "goast": "Создать универсальное решение для беременных женщин и мам, которое упрощает доступ к медицинской помощи, поддерживает здоровье и обеспечивает полезную информацию в удобном формате.",
+      "aboutProject": {
+        "title": "SuperMom Academy",
+        "description": "Клиент — компания, сфокусированная на поддержке здоровья женщин и детей. Задача заключалась в создании приложения, которое объединяет консультации экспертов, образовательный контент и инструменты мониторинга здоровья, обеспечивая доступность и удобство.",
+
+        "photo_1": "/assets/img/projects/supermom/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/supermom/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/supermom/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/supermom/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/supermom/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/supermom/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/supermom/preview-litle-1.jpg",
+          "/assets/img/projects/supermom/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 7,
+      "name": "Altyn Adam Agency - HR консалтинг",
+      "preview": "/assets/img/projects/altyn-adam-agency/preview.jpg",
+      "year": "2022",
+      "introDescription": "Это онлайн-платформа для найма персонала, которая помогает компаниям находить специалистов, а соискателям — работу в различных отраслях",
+
+      "client": "Altyn Adam Agency",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web"
+      ],
+      "role": [
+        "Полный цикл разработки",
+        "Поддержки платформы для найма персонала"
+      ],
+      "technologies": [
+        "Figma",
+        "Vue.js",
+        "TypeScript",
+        "Python",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/altyn-adam-agency/intro-photo-1.jpg",
+        "/assets/img/projects/altyn-adam-agency/intro-photo-2.jpg",
+        "/assets/img/projects/altyn-adam-agency/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Altyn Adam Agency – это специализированная HR-платформа, предназначенная для оптимизации процессов найма персонала. Система позволяет работодателям размещать вакансии и быстро находить квалифицированных специалистов в различных отраслях, таких как финансы, юриспруденция, IT, маркетинг и продажи, управление и инженерия.",
+        "projectType": "Платформа для найма и управления персоналом.",
+        "industry": [
+          "HR консалтинг",
+          "Подбор персонала"
+        ]
+      },
+
+      "goast": "Создать функциональный инструмент, который упростит взаимодействие между работодателями и потенциальными сотрудниками, обеспечит качественный подбор кадров, а также станет надежной базой для HR-консалтинга и других услуг по управлению персоналом.",
+      "aboutProject": {
+        "title": "Altyn Adam Agency",
+        "description": "Altyn Adam Agency – лидер HR-услуг в Казахстане. Клиент стремился создать удобную и интуитивно понятную платформу, которая обеспечивала бы эффективный подбор кандидатов с учетом квалификаций и корпоративной культуры компаний. Кроме того, система должна была автоматизировать ключевые процессы управления персоналом.",
+
+        "photo_1": "/assets/img/projects/altyn-adam-agency/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/altyn-adam-agency/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/altyn-adam-agency/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/altyn-adam-agency/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/altyn-adam-agency/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/altyn-adam-agency/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/altyn-adam-agency/preview-litle-1.jpg",
+          "/assets/img/projects/altyn-adam-agency/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 9,
+      "name": "Smart Safety",
+      "preview": "/assets/img/projects/smart-safety/preview.jpg",
+      "year": "2020",
+      "introDescription": "Smart Safety — это онлайн-система для школ, позволяющая отслеживать посещаемость учеников, контролировать их местоположение и управлять оплатой питания.",
+
+      "client": "CodeTau",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта",
+        "Мобильное приложение"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web",
+        "mobile"
+      ],
+      "role": [
+        "Разработка веб и мобильных приложений",
+        "Дизайн интуитивного интерфейса",
+        "Интеграция функций контроля посещаемости",
+        "Интеграция функций управления оплатами"
+      ],
+      "technologies": [
+        "Figma",
+        "Vue.js",
+        "TypeScript",
+        "Python",
+        "Laravel",
+        "Flutter"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/smart-safety/intro-photo-1.jpg",
+        "/assets/img/projects/smart-safety/intro-photo-2.jpg",
+        "/assets/img/projects/smart-safety/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Система предназначена для школ и образовательных учреждений, объединяя функции контроля посещаемости, учета местонахождения учеников и управления расходами. Родители могут проверять, находится ли их ребенок в школе, какой урок он посещает, а также что он ел в столовой. Администрация школ может использовать платформу для анализа посещаемости и эффективности обучения. Веб- и мобильные версии обеспечивают доступ к системе для всех участников процесса: учеников, родителей и сотрудников школы.",
+        "projectType": "Платформа для управления посещаемостью и учета данных учеников.",
+        "industry": [
+          "Образование",
+          "Безопасность"
+        ]
+      },
+
+      "goast": "Создать удобный инструмент для школ, который помогает повысить безопасность и прозрачность процессов обучения и посещения.",
+      "aboutProject": {
+        "title": "Smart Safety",
+        "description": "Клиент хотел создать систему, которая упростила бы мониторинг посещаемости учеников и улучшила взаимодействие между школами и родителями. Решение должно быть доступным через веб- и мобильные приложения, обеспечивая прозрачность и безопасность.",
+
+        "photo_1": "/assets/img/projects/smart-safety/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/smart-safety/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/smart-safety/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/smart-safety/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/smart-safety/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/smart-safety/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/smart-safety/preview-litle-1.jpg",
+          "/assets/img/projects/smart-safety/preview-litle-2.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": 13,
+      "name": "РЦК - Республиканский центр крови",
+      "preview": "/assets/img/projects/rck/preview.jpg",
+      "year": "2021",
+      "introDescription": "Создание лендинга Республиканского центра крови (РЦК) с информацией о центре, а также системой управления содержимым на базе Bitrix.",
+
+      "client": "Республиканский центр крови",
+      "workTypes": [
+        "UI/UX Дизайн",
+        "Разработка веб-сайта"
+      ],
+      "workTypesIDs": [
+        "design",
+        "web"
+      ],
+      "role": [
+        "Дизайн и создание лендинга",
+        "Разработка административной панели на базе Bitrix",
+        "Настройка функций управления контентом",
+        "Интеграция разделов с актуальными новостями"
+      ],
+      "technologies": [
+        "Figma",
+        "Bitrix",
+        "jQuery",
+        "PHP",
+        "Laravel"
+      ],
+      "introPhotos": [
+        "/assets/img/projects/rck/intro-photo-1.jpg",
+        "/assets/img/projects/rck/intro-photo-2.jpg",
+        "/assets/img/projects/rck/intro-photo-3.jpg"
+      ],
+
+      "subInfo": {
+        "title": "Веб-сайт РЦК предоставляет актуальную информацию о деятельности центра, его услугах, акциях и новостях. Лендинг включает подробные разделы об условиях донорства, медицинских процедурах и мероприятиях. Для удобства администраторов реализована система управления контентом (CMS) на базе Bitrix, которая позволяет быстро обновлять информацию на сайте и добавлять новые публикации.",
+        "projectType": "Информационный лендинг с административной панелью.",
+        "industry": [
+          "Медицина",
+          "Донорство крови"
+        ]
+      },
+
+      "goast": "Создать информативный и удобный сайт, который облегчает доступ к услугам центра и помогает привлекать новых доноров.",
+      "aboutProject": {
+        "title": "Республиканский центр крови (РЦК)",
+        "description": "Республиканский центр крови (РЦК) стремился создать современный сайт, который отражал бы их миссию и предоставлял удобный доступ к важной информации для доноров и пациентов. Основные пожелания: интуитивно понятная структура, возможность редактирования контента и публикации новостей.",
+
+        "photo_1": "/assets/img/projects/rck/about-project-photo-1.jpg",
+        "photo_2": "/assets/img/projects/rck/about-project-photo-2.jpg",
+        "photo_3": "/assets/img/projects/rck/about-project-photo-3.jpg",
+        "photo_4": "/assets/img/projects/rck/about-project-photo-4.jpg"
+      },
+
+      "previews": {
+        "solo_1": "/assets/img/projects/rck/preview-big-1.jpg",
+        "solo_2": "/assets/img/projects/rck/preview-big-2.jpg",
+        "double": [
+          "/assets/img/projects/rck/preview-litle-1.jpg",
+          "/assets/img/projects/rck/preview-litle-2.jpg"
+        ]
+      }
+    }
+  ]
+}

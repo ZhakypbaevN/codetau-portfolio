@@ -6,7 +6,7 @@
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: var(--primary-font), (--secondary-font), sans-serif;
+  font-family: var(--primary-font), var(--secondary-font), sans-serif;
   font-weight: 400;
 
   color: var(--primary-color);
@@ -20,10 +20,15 @@
 html, body {
   font-size: 10px;
   margin: 0;
+  overflow-x: hidden;
 }
 body {
   color: #000;
+  overflow: overlay;
   overflow-x: hidden;
+
+  position: relative;
+  -webkit-overflow-scrolling: touch;
 }
 header {
   position: relative;
@@ -41,48 +46,34 @@ header {
   background-repeat: no-repeat;
   background-color: var(--white-color);
 }
-/*ScrollBar
-/* Customize website's scrollbar like Mac OS
-Not supports in Firefox and IE */
-.scrollbar {
-  overflow: overlay
+
+/* Скрываем стандартный скроллбар */
+body {
+  scrollbar-width: none; /* Для Firefox */
+  -ms-overflow-style: none; /* Для IE и Edge */
 }
 
-/* total width */
-.scrollbar::-webkit-scrollbar {
-  background-color: rgba(0,0,0,0);
-  width: 14px;
-  height: 14px;
-  z-index: 999999;
+body::-webkit-scrollbar {
+  display: none; /* Для Chrome, Safari */
 }
 
-/* background of the scrollbar except button or resizer */
-.scrollbar::-webkit-scrollbar-track {
-  background-color: rgba(0,0,0,0);
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: #a0a0a5;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.3s, background 0.3s;
 }
 
-/* scrollbar itself */
-.scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgba(0,0,0,0);
-  border-radius:14px;
-  border:0px solid var(--white-color);
-}
-
-/* set button(top and bottom of the scrollbar) */
-.scrollbar::-webkit-scrollbar-button {
-  display:none;
-}
-
-/* scrollbar when element is hovered */
-.scrollbar:hover::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
   background-color: #a0a0a5;
-  border:4px solid var(--white-color);
-}
-
-/* scrollbar when scrollbar is hovered */
-.scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color:#a0a0a5;
-  border:4px solid #f4f4f4
+  border: 2px solid #fff;
 }
 
 html {
@@ -112,11 +103,17 @@ a, p {
 a {
   display: inline-block;
 }
+a, button {
+  cursor: pointer;
+}
 span {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
   font-weight: inherit;
+}
+h1, h2, h3, h4, h5, h6, p {
+  user-select: none;
 }
 select {
   border: .1rem solid var(--primary-color);
@@ -175,4 +172,7 @@ input.search-custom-input {
 }
 input.search-custom-input:focus {
   border: .1rem solid var(--primary-color);
+}
+.swiper {
+  overflow: visible !important;
 }
